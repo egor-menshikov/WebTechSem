@@ -1,0 +1,24 @@
+
+-- create
+CREATE TABLE STUDENT (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO STUDENT VALUES (1, 'Anton', 18, 'Moscow');
+INSERT INTO STUDENT VALUES (2, 'Kirill', 81, 'Moscow');
+INSERT INTO STUDENT VALUES (3, 'Maxim', 27, 'SPB');
+INSERT INTO STUDENT VALUES (4, 'Elena', 72, 'SPB');
+INSERT INTO STUDENT VALUES (5, 'Jenny', 36, 'Krasnodar');
+INSERT INTO STUDENT VALUES (6, 'Sasha', 63, 'Krasnodar');
+INSERT INTO STUDENT VALUES (7, 'Oleg', 45, 'N.Novgorod');
+INSERT INTO STUDENT VALUES (8, 'Olga', 54, 'N.Novgorod');
+INSERT INTO STUDENT VALUES (9, 'Denis', 63, 'Ekaterinburg');
+INSERT INTO STUDENT VALUES (10, 'Anna', 36, 'Ekaterinburg');
+
+
+-- fetch 
+SELECT * FROM STUDENT;
